@@ -105,7 +105,6 @@ The project answers the following business questions:
 ## Dashboard 1
 
 ![Dashboard 1](https://github.com/PradeepKumar0911/stroke-risk-analysis-dashboard/blob/main/Dashboard%201.png)
-
 ---
 
 ## Dashboard 2
