@@ -1,51 +1,184 @@
-# Stroke Risk Analysis Dashboard
+# 🧠 Stroke Risk Analysis Dashboard using SQL & Tableau
 
-## Source- Kaggle Stroke Prediction DataSet
+Source- Kaggle Stroke Prediction Dataset
 
-## Project Overview
-This project presents an interactive Stroke Risk Analysis Dashboard developed using SQL and Tableau. The objective is to analyze stroke-related data, identify high-risk demographic and lifestyle factors, and visualize key insights through interactive dashboards.
+An end-to-end data analytics project that explores stroke-related patient data using **Google BigQuery (SQL)** for data preparation and **Tableau** for interactive data visualization. The project identifies demographic and lifestyle patterns associated with stroke through business-driven analysis and dashboards.
 
-## Objectives
-- Analyze stroke cases by age group, gender, work type, smoking status, glucose level, and marital status.
-- Create KPI cards highlighting the most affected groups.
-- Develop interactive dashboards with filters for better data exploration.
-- Demonstrate the complete data analytics workflow from SQL querying to dashboard visualization.
+---
 
-## Tools & Technologies
-- SQL (Google BigQuery)
-- Tableau Public
-- CSV Dataset
-- Data Visualization
+## 📌 Project Overview
 
-## Dashboard Features
-### Dashboard 1: Demographic Analysis
+This project analyzes stroke patient data to uncover meaningful insights into demographic, health, and lifestyle factors associated with stroke occurrence. SQL was used to clean, transform, and analyze the dataset, while Tableau was used to create interactive dashboards for effective data storytelling.
+
+---
+
+## 🎯 Project Objectives
+
+- Analyze stroke cases across different demographic groups.
+- Identify high-risk age groups and lifestyle factors.
+- Create interactive Tableau dashboards with KPI cards.
+- Present insights through business-oriented visualizations.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Google BigQuery** – SQL
+- **Tableau Public**
+- **CSV Dataset**
+- **GitHub**
+
+---
+
+## 📂 Dataset Information
+
+The dataset contains patient information such as:
+
+- Gender
+- Age
+- Hypertension
+- Heart Disease
+- Ever Married
+- Work Type
+- Residence Type
+- Average Glucose Level
+- BMI
+- Smoking Status
+- Stroke (Target Variable)
+
+---
+
+# 📊 Dashboard 1 – Demographic Analysis
+
+### KPI Cards
 - Total Stroke Cases
 - Most Affected Age Group
 - Most Affected Gender
 - Most Affected Work Type
-- Stroke Cases by Age Group
+
+### Visualizations
 - Stroke Cases by Gender
+- Stroke Cases by Age Group
 - Stroke Cases by Work Type
 
-### Dashboard 2: Lifestyle & Health Factors
+### Key Insights
+- Patients aged **61–80** recorded the highest number of stroke cases.
+- Female patients had more stroke cases than male patients.
+- Private-sector employees accounted for the highest number of stroke cases.
+
+---
+
+# ❤️ Dashboard 2 – Health & Lifestyle Analysis
+
+### KPI Cards
 - Most Affected Smoking Status
 - Highest Glucose Risk
 - Highest Stroke Cases by Marital Status
+
+### Visualizations
 - Stroke Cases by Smoking Status
 - Stroke Cases by Glucose Level
 - Stroke Cases by Marital Status
 
-## Key Insights
-- The 61–80 age group recorded the highest number of stroke cases.
-- Female patients had slightly more stroke cases than males.
-- Private-sector employees showed the highest number of stroke cases.
-- Individuals classified as diabetic represented the highest glucose risk group.
-- Most stroke patients reported never smoking.
-- Married individuals accounted for the majority of stroke cases.
+### Key Insights
+- **Never Smoked** was the most common smoking status among stroke patients.
+- Patients classified under the **Diabetic** glucose category recorded the highest number of stroke cases.
+- **Ever Married** individuals accounted for the majority of stroke cases.
 
-## Repository Contents
-- SQL queries used for analysis
-- Tableau workbook (.twbx)
-- Dataset (CSV)
-- Dashboard screenshots
-- Project documentation
+---
+
+# 📝 Business Questions
+
+The project answers the following business questions:
+
+1. Which gender has the highest number of stroke cases?
+2. Which age group is most affected by stroke?
+3. Which work type has the highest number of stroke cases?
+4. How does smoking status influence stroke occurrence?
+5. Which glucose level category records the highest stroke cases?
+6. Which marital status records the highest stroke cases?
+
+---
+
+# 📸 Dashboard Preview
+
+## Dashboard 1
+
+![Dashboard 1](images/dashboard1.png)
+
+---
+
+## Dashboard 2
+
+![Dashboard 2](images/dashboard2.png)
+
+---
+
+# 🌐 Live Dashboard
+
+**Tableau Public**
+
+https://public.tableau.com/app/profile/pradeep.kumar3273/vizzes
+
+> Replace this with the direct dashboard URL if available.
+
+---
+
+# 📁 Repository Structure
+
+```
+Stroke-Risk-Analysis-Dashboard/
+│
+├── README.md
+├── stroke_analysis.sql
+├── stroke_dataset.csv
+├── Stroke_Risk_Analysis_Dashboard.twbx
+├── images/
+│   ├── dashboard1.png
+│   └── dashboard2.png
+```
+
+---
+
+# 🚀 Skills Demonstrated
+
+- SQL Querying (Google BigQuery)
+- Data Cleaning & Transformation
+- Data Aggregation
+- Business Intelligence
+- KPI Development
+- Tableau Dashboard Design
+- Data Visualization
+- Interactive Dashboard Creation
+- Data Storytelling
+
+---
+
+# 📌 Project Highlights
+
+✅ SQL-Based Data Analysis
+
+✅ Interactive Tableau Dashboards
+
+✅ KPI Cards
+
+✅ Healthcare Data Analytics
+
+✅ Business Insight Generation
+
+---
+
+# 👨‍💻 Author
+
+**Pradeep Kumar**
+
+**GitHub:** *(https://github.com/PradeepKumar0911)*
+
+**Tableau Public:**  
+https://public.tableau.com/app/profile/pradeep.kumar3273/vizzes
+
+**LinkedIn:** *(www.linkedin.com/in/enpk)*
+
+---
+
+## ⭐ If you found this project interesting, feel free to star this repository!
